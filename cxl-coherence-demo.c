@@ -81,6 +81,6 @@ int main(int argc, char *argv[])
 	// 以qemu cxl为例，由于qemu并不模拟cpu的cache子系统
 	// 这里实验时若numa node设定为cxl node
 	// 当loop count次数较少时如1, 2, 3, 表现正常，否则会出现不等于3*loop_count的情况
-	// 当实验时numa node设定为cpu node时，无论loop count次数多少，表现正常
+	// 当实验时numa node设定为mem node时，无论loop count次数多少，表现正常
 }
 
